@@ -126,6 +126,8 @@ blockquote {
 /* links */
 
 a {
+  text-decoration: none;      // 하이퍼링크 밑줄 제거
+
   &:focus {
     @extend %tab-focus;
   }
@@ -337,3 +339,4 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
