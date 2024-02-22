@@ -65,3 +65,13 @@ toc: false
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Junbeomcho22&show_icons=true&theme=tokyonight" alt="GitHub Stats">
 </div>
+
+<br/>
+
+<h3 align="center" style="cursor: pointer;" onclick="sendEmail()">💌 >Ask me< </h3>
+
+<script>
+    function sendEmail() {
+        window.location.href = "mailto:junbeom.choi@radiantgrace.org";
+    }
+</script>
