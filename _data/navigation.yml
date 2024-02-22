@@ -6,5 +6,5 @@ main:
     url: /about/
   - title: "Azure"
     url: "categories/azure"
-  - title: "Tags"
-    url: /tags/
+  - title: "Microsoft 365"
+    url: categories/microsoft365
