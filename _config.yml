@@ -25,7 +25,7 @@ url                      : "https://junbeomcho22.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/JunbeomCho22/JunbeomCho22.github.io.git"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/logo.ico/favicon-32x32.png"
 masthead_title           : "무능한 개발자 Blog"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
