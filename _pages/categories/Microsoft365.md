@@ -1,5 +1,5 @@
 ---
-title: "microsoft365"
+title: "카테고리: Microsoft 365"
 layout: archive
 permalink: categories/microsoft365
 author_profile: true

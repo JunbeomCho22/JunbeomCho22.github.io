@@ -1,5 +1,5 @@
 ---
-title: "azure"
+title: "카테고리: Azure"
 layout: archive
 permalink: categories/azure
 author_profile: true
