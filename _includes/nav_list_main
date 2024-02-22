@@ -13,7 +13,7 @@
             <ul id="azureSubMenu" style="display: none;">
                 {% for category in site.categories %}
                     {% if category[0] == "azure" %}
-                        <li><a href="/categories/azure" class="" style="margin-left: 20px;">Azure ({{ category[1] | size }})</a></li>
+                        <li><a href="/categories/azure" class="" style="margin-left: 15px;">- Azure ({{ category[1] | size }})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -23,7 +23,17 @@
             <ul id="microsoft365SubMenu" style="display: none;">
                 {% for category in site.categories %}
                     {% if category[0] == "microsoft365" %}
-                        <li><a href="/categories/microsoft365" class="" style="margin-left: 20px;">Microsoft 365 ({{ category[1] | size }})</a></li>
+                        <li><a href="/categories/microsoft365" class="" style="margin-left: 15px;">- Microsoft 365 ({{ category[1] | size }})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+        <li>
+            <span class="nav__sub-title" style="margin: 0; margin-left: 10px; cursor: pointer;" onclick="toggle('python365SubMenu')">python</span>
+            <ul id="python365SubMenu" style="display: none;">
+                {% for category in site.categories %}
+                    {% if category[0] == "python" %}
+                        <li><a href="/categories/python" class="" style="margin-left: 15px;">- Python ({{ category[1] | size }})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

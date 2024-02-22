@@ -8,3 +8,5 @@ main:
     url: "categories/azure"
   - title: "Microsoft 365"
     url: categories/microsoft365
+  - title: "Python"
+    url: categories/python
