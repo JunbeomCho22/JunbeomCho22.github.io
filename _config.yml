@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "무능한 개발자 Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "최준범(Choi JunBeom)"
+name                     : "Choi JunBeom"
 description              : "무능한 개발자의 블로그"
 url                      : "https://junbeomcho22.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -286,10 +286,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: # true
       comments: # true
-      share: true
-      related: true
+      share: # true
+      related: # true
       sidebar_main: true #사이드바 추가
 
   # _pages
