@@ -13,7 +13,7 @@
             <ul id="azureSubMenu" style="display: none;">
                 {% for category in site.categories %}
                     {% if category[0] == "azure" %}
-                        <li><a href="/categories/azure" class="" style="margin-left: 15px;">- Azure ({{ category[1] | size }})</a></li>
+                        <li><a href="/azure" class="" style="margin-left: 15px;">- Azure ({{ category[1] | size }})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -23,7 +23,7 @@
             <ul id="microsoft365SubMenu" style="display: none;">
                 {% for category in site.categories %}
                     {% if category[0] == "microsoft365" %}
-                        <li><a href="/categories/microsoft365" class="" style="margin-left: 15px;">- Microsoft 365 ({{ category[1] | size }})</a></li>
+                        <li><a href="/microsoft365" class="" style="margin-left: 15px;">- Microsoft 365 ({{ category[1] | size }})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -33,14 +33,12 @@
             <ul id="pythonSubMenu" style="display: none;">
                 {% for category in site.categories %}
                     {% if category[0] == "python" %}
-                        <li><a href="/categories/python" class="" style="margin-left: 15px;">- Python ({{ category[1] | size }})</a></li>
+                        <li><a href="/python" class="" style="margin-left: 15px;">- Python ({{ category[1] | size }})</a></li>
                     {% endif %}
                 {% endfor %}
-            </ul>
-            <ul id="pythonSubMenu" style="display: none;">
                 {% for category in site.categories %}
                     {% if category[0] == "flask" %}
-                        <li><a href="/categories/flask" class="" style="margin-left: 15px;">- Flask ({{ category[1] | size }})</a></li>
+                        <li><a href="/flask" class="" style="margin-left: 15px;">- Flask ({{ category[1] | size }})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

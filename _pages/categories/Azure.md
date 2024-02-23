@@ -1,7 +1,7 @@
 ---
 title: "카테고리: Azure"
 layout: archive
-permalink: categories/azure
+permalink: azure
 author_profile: true
 sidebar_main: true
 ---

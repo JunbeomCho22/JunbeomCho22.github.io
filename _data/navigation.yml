@@ -1,12 +1,13 @@
-# main links
 main:
-  #- title: "Home"
-  #  url: "/"
   - title: "Introduce"
     url: /about/
   - title: "Azure"
-    url: "categories/azure"
+    url: /azure/
   - title: "Microsoft 365"
-    url: categories/microsoft365
+    url: /microsoft365/
   - title: "Python"
-    url: categories/python
+    sublinks:
+      - title: "Python"
+        url: /python/
+      - title: "Flask"
+        url: /flask/
