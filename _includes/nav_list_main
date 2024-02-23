@@ -29,11 +29,18 @@
             </ul>
         </li>
         <li>
-            <span class="nav__sub-title" style="margin: 0; margin-left: 10px; cursor: pointer;" onclick="toggle('python365SubMenu')">python</span>
-            <ul id="python365SubMenu" style="display: none;">
+            <span class="nav__sub-title" style="margin: 0; margin-left: 10px; cursor: pointer;" onclick="toggle('pythonSubMenu')">python</span>
+            <ul id="pythonSubMenu" style="display: none;">
                 {% for category in site.categories %}
                     {% if category[0] == "python" %}
                         <li><a href="/categories/python" class="" style="margin-left: 15px;">- Python ({{ category[1] | size }})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul id="pythonSubMenu" style="display: none;">
+                {% for category in site.categories %}
+                    {% if category[0] == "flask" %}
+                        <li><a href="/categories/flask" class="" style="margin-left: 15px;">- Flask ({{ category[1] | size }})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
