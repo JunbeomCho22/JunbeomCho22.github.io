@@ -1,7 +1,7 @@
 ---
 title: "카테고리: Blog"
 layout: archive
-permalink: blog
+permalink: /blog/
 author_profile: true
 sidebar_main: true
 ---

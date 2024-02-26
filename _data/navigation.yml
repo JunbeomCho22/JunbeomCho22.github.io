@@ -2,14 +2,14 @@ main:
   - title: "Introduce"
     url: /about/
   - title: "Azure"
-    url: /azure
+    url: /azure/
   - title: "Microsoft 365"
-    url: /microsoft365
+    url: /microsoft365/
   - title: "Python"
     sublinks:
       - title: "Python"
-        url: /python
+        url: /python/
       - title: "Flask"
-        url: /flask
+        url: /flask/
   - title: "Blog"
-    url: /blog
+    url: /blog/

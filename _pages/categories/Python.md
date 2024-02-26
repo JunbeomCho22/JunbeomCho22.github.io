@@ -1,7 +1,7 @@
 ---
 title: "카테고리: Python"
 layout: archive
-permalink: python
+permalink: /python/
 author_profile: true
 sidebar_main: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: "카테고리: Microsoft 365"
 layout: archive
-permalink: microsoft365
+permalink: /microsoft365/
 author_profile: true
 sidebar_main: true
 ---

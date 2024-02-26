@@ -1,7 +1,7 @@
 ---
 title: "카테고리: Flask"
 layout: archive
-permalink: flask
+permalink: /flask/
 author_profile: true
 sidebar_main: true
 ---
