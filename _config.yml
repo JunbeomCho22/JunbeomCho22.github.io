@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "Choi Junbeom"
   avatar           : "/assets/images/avatar.jpg"
-  bio              : "**무능한 개발자**"
+  bio              : "**무능한 개발자** <br> - IT 기술 잡지식"
   location         : "Republic of Korea"
   email            : # "mailto:junbeom.choi@radiantgrace.org"
   links:
