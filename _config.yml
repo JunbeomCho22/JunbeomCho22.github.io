@@ -109,11 +109,11 @@ author:
   avatar           : "/assets/images/avatar.jpg"
   bio              : "**무능한 개발자** <br> - IT 기술 잡지식"
   location         : "Republic of Korea"
-  email            : # "mailto:junbeom.choi@radiantgrace.org"
+  email            : # "mailto:junbeom.cho22@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:junbeom.choi@radiantgrace.org"
+      url: "mailto:junbeom.cho22@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
