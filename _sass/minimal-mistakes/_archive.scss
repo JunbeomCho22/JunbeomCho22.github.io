@@ -2,6 +2,20 @@
    ARCHIVE
    ========================================================================== */
 
+/* 데스크톱 화면에서만 사이드바 표시 */
+@media (min-width: 768px) {
+  .sidebar {
+      display: block; /* 또는 원하는 스타일로 설정 */
+  }
+}
+
+/* 모바일 화면에서 사이드바 숨김 */
+@media (max-width: 767px) {
+  .sidebar {
+      display: none;
+  }
+}
+
 .archive {
   margin-top: 1em;
   margin-bottom: 2em;
