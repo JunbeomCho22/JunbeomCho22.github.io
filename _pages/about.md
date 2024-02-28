@@ -29,6 +29,6 @@ toc: false
 
 <script>
     function sendEmail() {
-        window.location.href = "mailto:junbeom.choi@radiantgrace.org";
+        window.location.href = "mailto:junbeom.cho22@gmail.com";
     }
 </script>
