@@ -6,5 +6,11 @@ author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.microsoft365 %}
-{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
+<div class="grid__wrapper">
+    {% assign posts = site.categories.microsoft365 %}
+    {% for post in posts %}
+        {% include archive-single3.html type="list" %}
+    {% endfor %}
+</div>
+
+{% include paginator.html %}
