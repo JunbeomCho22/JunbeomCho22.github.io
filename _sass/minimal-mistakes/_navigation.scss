@@ -52,10 +52,9 @@
 
 .pagination {
   @include clearfix();
-  float: left;
-  margin-top: 1em;
+  margin: 1em auto;
   padding-top: 1em;
-  width: 100%;
+  width: fit-content;
 
   ul {
     margin: 0;
