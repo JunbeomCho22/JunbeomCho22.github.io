@@ -7,10 +7,11 @@ sidebar_main: true
 ---
 
 <div class="grid__wrapper">
-    {% assign posts = site.categories.flask %}
-    {% for post in posts %}
-        {% include archive-single3.html type="list" %}
+{% for category in site.categories %}
+    <ul>
+    {% for post in category[1] %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
+    </ul>
+{% endfor %}
 </div>
-
-{% include paginator.html %}
