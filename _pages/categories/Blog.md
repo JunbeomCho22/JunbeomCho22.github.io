@@ -12,5 +12,4 @@ sidebar_main: true
         {% include archive-single3.html type="list" %}
     {% endfor %}
 </div>
-
 {% include paginator.html %}
