@@ -25,7 +25,7 @@ toc_label: "목차"
 </style>
 
 <div style="text-align: center;">
-<img src="https://github.com/JunbeomCho22/JunbeomCho22.github.io/assets/156159216/033222ee-5309-42e9-8858-c65a7c2629f9" alt="2024-03-06-blog01" style="height: 400px;">
+<img src="https://github.com/JunbeomCho22/JunbeomCho22.github.io/assets/156159216/033222ee-5309-42e9-8858-c65a7c2629f9" alt="2024-03-07-blog01" style="height: 400px;">
 </div>
 
 <br>
